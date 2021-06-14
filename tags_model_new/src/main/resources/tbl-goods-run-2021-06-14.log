@@ -1,0 +1,372 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/halfOfGame/.m2/repository/org/slf4j/slf4j-log4j12/1.7.10/slf4j-log4j12-1.7.10.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/halfOfGame/.m2/repository/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+log4j:WARN No appenders could be found for logger (org.apache.hadoop.metrics2.lib.MutableMetricsFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+21/06/14 08:05:07 INFO SparkContext: Running Spark version 2.1.1
+21/06/14 08:05:07 INFO SecurityManager: Changing view acls to: halfOfGame,atguigu
+21/06/14 08:05:07 INFO SecurityManager: Changing modify acls to: halfOfGame,atguigu
+21/06/14 08:05:07 INFO SecurityManager: Changing view acls groups to:
+21/06/14 08:05:07 INFO SecurityManager: Changing modify acls groups to:
+21/06/14 08:05:07 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(halfOfGame, atguigu); groups with view permissions: Set(); users  with modify permissions: Set(halfOfGame, atguigu); groups with modify permissions: Set()
+21/06/14 08:05:07 INFO Utils: Successfully started service 'sparkDriver' on port 1571.
+21/06/14 08:05:07 INFO SparkEnv: Registering MapOutputTracker
+21/06/14 08:05:07 INFO SparkEnv: Registering BlockManagerMaster
+21/06/14 08:05:07 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+21/06/14 08:05:07 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+21/06/14 08:05:07 INFO DiskBlockManager: Created local directory at C:\Users\halfOfGame\AppData\Local\Temp\blockmgr-d3d167f6-d11b-41e1-9380-f1c85baa3a43
+21/06/14 08:05:07 INFO MemoryStore: MemoryStore started with capacity 4.1 GB
+21/06/14 08:05:07 INFO SparkEnv: Registering OutputCommitCoordinator
+21/06/14 08:05:07 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+21/06/14 08:05:07 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://192.168.1.1:4040
+21/06/14 08:05:07 INFO Executor: Starting executor ID driver on host localhost
+21/06/14 08:05:07 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 1612.
+21/06/14 08:05:07 INFO NettyBlockTransferService: Server created on 192.168.1.1:1612
+21/06/14 08:05:07 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+21/06/14 08:05:07 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 192.168.1.1, 1612, None)
+21/06/14 08:05:07 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.1.1:1612 with 4.1 GB RAM, BlockManagerId(driver, 192.168.1.1, 1612, None)
+21/06/14 08:05:07 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 192.168.1.1, 1612, None)
+21/06/14 08:05:07 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 192.168.1.1, 1612, None)
+21/06/14 08:05:07 INFO SharedState: Warehouse path is 'file:/D:/ShopProject/UserTags/spark-warehouse'.
+21/06/14 08:05:08 INFO HiveUtils: Initializing HiveMetastoreConnection version 1.2.1 using Spark classes.
+21/06/14 08:05:08 INFO HiveMetaStore: 0: Opening raw store with implemenation class:org.apache.hadoop.hive.metastore.ObjectStore
+21/06/14 08:05:08 INFO ObjectStore: ObjectStore, initialize called
+21/06/14 08:05:08 INFO Persistence: Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+21/06/14 08:05:08 INFO Persistence: Property datanucleus.cache.level2 unknown - will be ignored
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+21/06/14 08:05:08 INFO ObjectStore: Setting MetaStore object pin classes with hive.metastore.cache.pinobjtypes="Table,StorageDescriptor,SerDeInfo,Partition,Database,Type,FieldSchema,Order"
+21/06/14 08:05:09 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+21/06/14 08:05:09 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+21/06/14 08:05:10 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+21/06/14 08:05:10 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+21/06/14 08:05:10 INFO Query: Reading in results for query "org.datanucleus.store.rdbms.query.SQLQuery@0" since the connection used is closing
+21/06/14 08:05:10 INFO MetaStoreDirectSql: Using direct SQL, underlying DB is MYSQL
+21/06/14 08:05:10 INFO ObjectStore: Initialized ObjectStore
+21/06/14 08:05:11 INFO HiveMetaStore: Added admin role in metastore
+21/06/14 08:05:11 INFO HiveMetaStore: Added public role in metastore
+21/06/14 08:05:11 INFO HiveMetaStore: No user is added in admin role, since config is empty
+21/06/14 08:05:11 INFO HiveMetaStore: 0: get_all_databases
+21/06/14 08:05:11 INFO audit: ugi=atguigu	ip=unknown-ip-addr	cmd=get_all_databases
+21/06/14 08:05:11 INFO HiveMetaStore: 0: get_functions: db=default pat=*
+21/06/14 08:05:11 INFO audit: ugi=atguigu	ip=unknown-ip-addr	cmd=get_functions: db=default pat=*
+21/06/14 08:05:11 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MResourceUri" is tagged as "embedded-only" so does not have its own datastore table.
+21/06/14 08:05:11 INFO HiveMetaStore: 0: get_functions: db=sparkpractice pat=*
+21/06/14 08:05:11 INFO audit: ugi=atguigu	ip=unknown-ip-addr	cmd=get_functions: db=sparkpractice pat=*
+21/06/14 08:05:11 INFO HiveMetaStore: 0: get_functions: db=tags_data pat=*
+21/06/14 08:05:11 INFO audit: ugi=atguigu	ip=unknown-ip-addr	cmd=get_functions: db=tags_data pat=*
+21/06/14 08:05:11 INFO HiveMetaStore: 0: get_functions: db=zhiwang pat=*
+21/06/14 08:05:11 INFO audit: ugi=atguigu	ip=unknown-ip-addr	cmd=get_functions: db=zhiwang pat=*
+21/06/14 08:05:12 INFO SessionState: Created local directory: C:/Users/HALFOF~1/AppData/Local/Temp/76f3f9a4-ea67-435c-9716-71a5ef926426_resources
+21/06/14 08:05:12 INFO SessionState: Created HDFS directory: /tmp/hive/atguigu/76f3f9a4-ea67-435c-9716-71a5ef926426
+21/06/14 08:05:12 INFO SessionState: Created local directory: C:/Users/HALFOF~1/AppData/Local/Temp/halfOfGame/76f3f9a4-ea67-435c-9716-71a5ef926426
+21/06/14 08:05:12 INFO SessionState: Created HDFS directory: /tmp/hive/atguigu/76f3f9a4-ea67-435c-9716-71a5ef926426/_tmp_space.db
+21/06/14 08:05:12 INFO HiveClientImpl: Warehouse location for Hive client (version 1.2.1) is file:/D:/ShopProject/UserTags/spark-warehouse
+21/06/14 08:05:12 INFO HiveMetaStore: 0: get_database: default
+21/06/14 08:05:12 INFO audit: ugi=atguigu	ip=unknown-ip-addr	cmd=get_database: default
+21/06/14 08:05:12 INFO HiveMetaStore: 0: get_database: global_temp
+21/06/14 08:05:12 INFO audit: ugi=atguigu	ip=unknown-ip-addr	cmd=get_database: global_temp
+21/06/14 08:05:12 WARN ObjectStore: Failed to get database global_temp, returning NoSuchObjectException
+21/06/14 08:05:12 INFO SparkSqlParser: Parsing command: tags_data.tbl_goods
+21/06/14 08:05:12 INFO HiveMetaStore: 0: get_table : db=tags_data tbl=tbl_goods
+21/06/14 08:05:12 INFO audit: ugi=atguigu	ip=unknown-ip-addr	cmd=get_table : db=tags_data tbl=tbl_goods
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: bigint
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: bigint
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: boolean
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: boolean
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: boolean
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: bigint
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: string
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: boolean
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: int
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: bigint
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: string
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: bigint
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: string
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: string
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: double
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: int
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: bigint
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: bigint
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: double
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: double
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: double
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: double
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: bigint
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: double
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: bigint
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: double
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: bigint
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: int
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: int
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: int
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: double
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: boolean
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: bigint
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: boolean
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: string
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: string
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: int
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: int
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: string
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: string
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: string
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: string
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: string
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: string
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: int
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: int
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: string
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: string
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: int
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: string
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: boolean
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: bigint
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: string
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: int
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: bigint
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: bigint
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: int
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: string
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: string
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: tinyint
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: string
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: bigint
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: string
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: string
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: int
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: bigint
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: double
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: bigint
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: bigint
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: boolean
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: boolean
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: int
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: int
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: int
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: int
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: tinyint
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: tinyint
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: double
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: int
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: int
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: string
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: int
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: string
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: tinyint
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: string
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: tinyint
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: int
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: int
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: string
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: string
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: double
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: bigint
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: tinyint
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: string
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: tinyint
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: string
+21/06/14 08:05:12 INFO CatalystSqlParser: Parsing command: string
+21/06/14 08:05:13 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 276.5 KB, free 4.1 GB)
+21/06/14 08:05:13 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 25.6 KB, free 4.1 GB)
+21/06/14 08:05:13 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 192.168.1.1:1612 (size: 25.6 KB, free: 4.1 GB)
+21/06/14 08:05:13 INFO SparkContext: Created broadcast 0 from rdd at Hive2HBase.scala:70
+21/06/14 08:05:13 INFO FileInputFormat: Total input paths to process : 2
+21/06/14 08:05:13 INFO SparkContext: Starting job: sortBy at Hive2HBase.scala:74
+21/06/14 08:05:13 INFO DAGScheduler: Got job 0 (sortBy at Hive2HBase.scala:74) with 2 output partitions
+21/06/14 08:05:13 INFO DAGScheduler: Final stage: ResultStage 0 (sortBy at Hive2HBase.scala:74)
+21/06/14 08:05:13 INFO DAGScheduler: Parents of final stage: List()
+21/06/14 08:05:13 INFO DAGScheduler: Missing parents: List()
+21/06/14 08:05:13 INFO DAGScheduler: Submitting ResultStage 0 (MapPartitionsRDD[9] at sortBy at Hive2HBase.scala:74), which has no missing parents
+21/06/14 08:05:13 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 40.7 KB, free 4.1 GB)
+21/06/14 08:05:13 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 16.9 KB, free 4.1 GB)
+21/06/14 08:05:13 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on 192.168.1.1:1612 (size: 16.9 KB, free: 4.1 GB)
+21/06/14 08:05:13 INFO SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:996
+21/06/14 08:05:13 INFO DAGScheduler: Submitting 2 missing tasks from ResultStage 0 (MapPartitionsRDD[9] at sortBy at Hive2HBase.scala:74)
+21/06/14 08:05:13 INFO TaskSchedulerImpl: Adding task set 0.0 with 2 tasks
+21/06/14 08:05:13 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, localhost, executor driver, partition 0, ANY, 6024 bytes)
+21/06/14 08:05:13 INFO TaskSetManager: Starting task 1.0 in stage 0.0 (TID 1, localhost, executor driver, partition 1, ANY, 6024 bytes)
+21/06/14 08:05:13 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+21/06/14 08:05:13 INFO Executor: Running task 1.0 in stage 0.0 (TID 1)
+21/06/14 08:05:13 INFO HadoopRDD: Input split: hdfs://hadoop101:9000/user/hive/warehouse/tags_data.db/tbl_goods/part-m-00000:0+2215
+21/06/14 08:05:13 INFO HadoopRDD: Input split: hdfs://hadoop101:9000/user/hive/warehouse/tags_data.db/tbl_goods/part-m-00001:0+82204688
+21/06/14 08:05:13 INFO deprecation: mapred.tip.id is deprecated. Instead, use mapreduce.task.id
+21/06/14 08:05:13 INFO deprecation: mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+21/06/14 08:05:13 INFO deprecation: mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap
+21/06/14 08:05:13 INFO deprecation: mapred.task.partition is deprecated. Instead, use mapreduce.task.partition
+21/06/14 08:05:13 INFO deprecation: mapred.job.id is deprecated. Instead, use mapreduce.job.id
+21/06/14 08:05:14 INFO CodeGenerator: Code generated in 189.9661 ms
+21/06/14 08:05:14 INFO CodeGenerator: Code generated in 48.5008 ms
+21/06/14 08:05:14 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 1650 bytes result sent to driver
+21/06/14 08:05:14 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 812 ms on localhost (executor driver) (1/2)
+21/06/14 08:05:18 INFO Executor: Finished task 1.0 in stage 0.0 (TID 1). 2212 bytes result sent to driver
+21/06/14 08:05:18 INFO TaskSetManager: Finished task 1.0 in stage 0.0 (TID 1) in 4617 ms on localhost (executor driver) (2/2)
+21/06/14 08:05:18 INFO DAGScheduler: ResultStage 0 (sortBy at Hive2HBase.scala:74) finished in 4.637 s
+21/06/14 08:05:18 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool
+21/06/14 08:05:18 INFO DAGScheduler: Job 0 finished: sortBy at Hive2HBase.scala:74, took 4.684933 s
+21/06/14 08:05:18 INFO deprecation: mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+21/06/14 08:05:18 INFO SparkContext: Starting job: saveAsNewAPIHadoopFile at Hive2HBase.scala:104
+21/06/14 08:05:18 INFO DAGScheduler: Registering RDD 7 (sortBy at Hive2HBase.scala:74)
+21/06/14 08:05:18 INFO DAGScheduler: Got job 1 (saveAsNewAPIHadoopFile at Hive2HBase.scala:104) with 2 output partitions
+21/06/14 08:05:18 INFO DAGScheduler: Final stage: ResultStage 2 (saveAsNewAPIHadoopFile at Hive2HBase.scala:104)
+21/06/14 08:05:18 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 1)
+21/06/14 08:05:18 INFO DAGScheduler: Missing parents: List(ShuffleMapStage 1)
+21/06/14 08:05:18 INFO DAGScheduler: Submitting ShuffleMapStage 1 (MapPartitionsRDD[7] at sortBy at Hive2HBase.scala:74), which has no missing parents
+21/06/14 08:05:18 INFO MemoryStore: Block broadcast_2 stored as values in memory (estimated size 41.3 KB, free 4.1 GB)
+21/06/14 08:05:18 INFO MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 17.3 KB, free 4.1 GB)
+21/06/14 08:05:18 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on 192.168.1.1:1612 (size: 17.3 KB, free: 4.1 GB)
+21/06/14 08:05:18 INFO SparkContext: Created broadcast 2 from broadcast at DAGScheduler.scala:996
+21/06/14 08:05:18 INFO DAGScheduler: Submitting 2 missing tasks from ShuffleMapStage 1 (MapPartitionsRDD[7] at sortBy at Hive2HBase.scala:74)
+21/06/14 08:05:18 INFO TaskSchedulerImpl: Adding task set 1.0 with 2 tasks
+21/06/14 08:05:18 INFO TaskSetManager: Starting task 0.0 in stage 1.0 (TID 2, localhost, executor driver, partition 0, ANY, 6030 bytes)
+21/06/14 08:05:18 INFO TaskSetManager: Starting task 1.0 in stage 1.0 (TID 3, localhost, executor driver, partition 1, ANY, 6030 bytes)
+21/06/14 08:05:18 INFO Executor: Running task 1.0 in stage 1.0 (TID 3)
+21/06/14 08:05:18 INFO Executor: Running task 0.0 in stage 1.0 (TID 2)
+21/06/14 08:05:18 INFO HadoopRDD: Input split: hdfs://hadoop101:9000/user/hive/warehouse/tags_data.db/tbl_goods/part-m-00000:0+2215
+21/06/14 08:05:18 INFO HadoopRDD: Input split: hdfs://hadoop101:9000/user/hive/warehouse/tags_data.db/tbl_goods/part-m-00001:0+82204688
+21/06/14 08:05:18 INFO Executor: Finished task 0.0 in stage 1.0 (TID 2). 1621 bytes result sent to driver
+21/06/14 08:05:18 INFO TaskSetManager: Finished task 0.0 in stage 1.0 (TID 2) in 62 ms on localhost (executor driver) (1/2)
+21/06/14 08:05:19 INFO BlockManagerInfo: Removed broadcast_1_piece0 on 192.168.1.1:1612 in memory (size: 16.9 KB, free: 4.1 GB)
+21/06/14 08:05:24 INFO Executor: Finished task 1.0 in stage 1.0 (TID 3). 1607 bytes result sent to driver
+21/06/14 08:05:24 INFO TaskSetManager: Finished task 1.0 in stage 1.0 (TID 3) in 5476 ms on localhost (executor driver) (2/2)
+21/06/14 08:05:24 INFO TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool
+21/06/14 08:05:24 INFO DAGScheduler: ShuffleMapStage 1 (sortBy at Hive2HBase.scala:74) finished in 5.477 s
+21/06/14 08:05:24 INFO DAGScheduler: looking for newly runnable stages
+21/06/14 08:05:24 INFO DAGScheduler: running: Set()
+21/06/14 08:05:24 INFO DAGScheduler: waiting: Set(ResultStage 2)
+21/06/14 08:05:24 INFO DAGScheduler: failed: Set()
+21/06/14 08:05:24 INFO DAGScheduler: Submitting ResultStage 2 (MapPartitionsRDD[12] at flatMap at Hive2HBase.scala:75), which has no missing parents
+21/06/14 08:05:24 INFO MemoryStore: Block broadcast_3 stored as values in memory (estimated size 84.2 KB, free 4.1 GB)
+21/06/14 08:05:24 INFO MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 30.7 KB, free 4.1 GB)
+21/06/14 08:05:24 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on 192.168.1.1:1612 (size: 30.7 KB, free: 4.1 GB)
+21/06/14 08:05:24 INFO SparkContext: Created broadcast 3 from broadcast at DAGScheduler.scala:996
+21/06/14 08:05:24 INFO DAGScheduler: Submitting 2 missing tasks from ResultStage 2 (MapPartitionsRDD[12] at flatMap at Hive2HBase.scala:75)
+21/06/14 08:05:24 INFO TaskSchedulerImpl: Adding task set 2.0 with 2 tasks
+21/06/14 08:05:24 INFO TaskSetManager: Starting task 0.0 in stage 2.0 (TID 4, localhost, executor driver, partition 0, ANY, 5766 bytes)
+21/06/14 08:05:24 INFO TaskSetManager: Starting task 1.0 in stage 2.0 (TID 5, localhost, executor driver, partition 1, ANY, 5766 bytes)
+21/06/14 08:05:24 INFO Executor: Running task 0.0 in stage 2.0 (TID 4)
+21/06/14 08:05:24 INFO Executor: Running task 1.0 in stage 2.0 (TID 5)
+21/06/14 08:05:24 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 2 blocks
+21/06/14 08:05:24 INFO ShuffleBlockFetcherIterator: Getting 2 non-empty blocks out of 2 blocks
+21/06/14 08:05:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 3 ms
+21/06/14 08:05:24 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 3 ms
+21/06/14 08:05:24 INFO BlockManagerInfo: Removed broadcast_2_piece0 on 192.168.1.1:1612 in memory (size: 17.3 KB, free: 4.1 GB)
+21/06/14 08:05:27 INFO RecoverableZooKeeper: Process identifier=hconnection-0x26450795 connecting to ZooKeeper ensemble=hadoop101:2181
+21/06/14 08:05:27 INFO RecoverableZooKeeper: Process identifier=hconnection-0x668e0b13 connecting to ZooKeeper ensemble=hadoop101:2181
+21/06/14 08:05:31 INFO ZooKeeper: Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+21/06/14 08:05:31 INFO ZooKeeper: Client environment:host.name=DESKTOP-MDCKGTF
+21/06/14 08:05:31 INFO ZooKeeper: Client environment:java.version=1.8.0_202
+21/06/14 08:05:31 INFO ZooKeeper: Client environment:java.vendor=Oracle Corporation
+21/06/14 08:05:31 INFO ZooKeeper: Client environment:java.home=C:\Program Files\Java\jdk1.8.0_202\jre
+21/06/14 08:05:31 INFO ZooKeeper: Client environment:java.class.path=C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;D:\ShopProject\UserTags\tags_model_new\target\classes;C:\Program Files (x86)\scala\lib\scala-library.jar;C:\Program Files (x86)\scala\lib\scala-reflect.jar;C:\Users\halfOfGame\.m2\repository\javax\servlet\javax.servlet-api\4.0.0\javax.servlet-api-4.0.0.jar;C:\Users\halfOfGame\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;C:\Users\halfOfGame\.m2\repository\javax\servlet\jsp\jstl\javax.servlet.jsp.jstl-api\1.2.1\javax.servlet.jsp.jstl-api-1.2.1.jar;C:\Users\halfOfGame\.m2\repository\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar;C:\Users\halfOfGame\.m2\repository\org\apache\hadoop\hadoop-common\2.7.2\hadoop-common-2.7.2.jar;C:\Users\halfOfGame\.m2\repository\org\apache\hadoop\hadoop-annotations\2.7.2\hadoop-annotations-2.7.2.jar;C:\Users\halfOfGame\.m2\repository\com\google\guava\guava\11.0.2\guava-11.0.2.jar;C:\Users\halfOfGame\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;C:\Users\halfOfGame\.m2\repository\org\apache\commons\commons-math3\3.1.1\commons-math3-3.1.1.jar;C:\Users\halfOfGame\.m2\repository\xmlenc\xmlenc\0.52\xmlenc-0.52.jar;C:\Users\halfOfGame\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\halfOfGame\.m2\repository\commons-codec\commons-codec\1.4\commons-codec-1.4.jar;C:\Users\halfOfGame\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\halfOfGame\.m2\repository\commons-net\commons-net\3.1\commons-net-3.1.jar;C:\Users\halfOfGame\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\halfOfGame\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;C:\Users\halfOfGame\.m2\repository\org\mortbay\jetty\jetty\6.1.26\jetty-6.1.26.jar;C:\Users\halfOfGame\.m2\repository\org\mortbay\jetty\jetty-util\6.1.26\jetty-util-6.1.26.jar;C:\Users\halfOfGame\.m2\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar;C:\Users\halfOfGame\.m2\repository\com\sun\jersey\jersey-core\1.9\jersey-core-1.9.jar;C:\Users\halfOfGame\.m2\repository\com\sun\jersey\jersey-json\1.9\jersey-json-1.9.jar;C:\Users\halfOfGame\.m2\repository\org\codehaus\jettison\jettison\1.1\jettison-1.1.jar;C:\Users\halfOfGame\.m2\repository\com\sun\xml\bind\jaxb-impl\2.2.3-1\jaxb-impl-2.2.3-1.jar;C:\Users\halfOfGame\.m2\repository\com\sun\jersey\jersey-server\1.9\jersey-server-1.9.jar;C:\Users\halfOfGame\.m2\repository\asm\asm\3.1\asm-3.1.jar;C:\Users\halfOfGame\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\halfOfGame\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\halfOfGame\.m2\repository\net\java\dev\jets3t\jets3t\0.9.0\jets3t-0.9.0.jar;C:\Users\halfOfGame\.m2\repository\org\apache\httpcomponents\httpcore\4.1.2\httpcore-4.1.2.jar;C:\Users\halfOfGame\.m2\repository\com\jamesmurty\utils\java-xmlbuilder\0.4\java-xmlbuilder-0.4.jar;C:\Users\halfOfGame\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\halfOfGame\.m2\repository\commons-configuration\commons-configuration\1.6\commons-configuration-1.6.jar;C:\Users\halfOfGame\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Users\halfOfGame\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Users\halfOfGame\.m2\repository\commons-beanutils\commons-beanutils-core\1.8.0\commons-beanutils-core-1.8.0.jar;C:\Users\halfOfGame\.m2\repository\org\slf4j\slf4j-log4j12\1.7.10\slf4j-log4j12-1.7.10.jar;C:\Users\halfOfGame\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;C:\Users\halfOfGame\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;C:\Users\halfOfGame\.m2\repository\org\apache\avro\avro\1.7.4\avro-1.7.4.jar;C:\Users\halfOfGame\.m2\repository\com\thoughtworks\paranamer\paranamer\2.3\paranamer-2.3.jar;C:\Users\halfOfGame\.m2\repository\com\google\protobuf\protobuf-java\2.5.0\protobuf-java-2.5.0.jar;C:\Users\halfOfGame\.m2\repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;C:\Users\halfOfGame\.m2\repository\org\apache\hadoop\hadoop-auth\2.7.2\hadoop-auth-2.7.2.jar;C:\Users\halfOfGame\.m2\repository\org\apache\directory\server\apacheds-kerberos-codec\2.0.0-M15\apacheds-kerberos-codec-2.0.0-M15.jar;C:\Users\halfOfGame\.m2\repository\org\apache\directory\server\apacheds-i18n\2.0.0-M15\apacheds-i18n-2.0.0-M15.jar;C:\Users\halfOfGame\.m2\repository\org\apache\directory\api\api-asn1-api\1.0.0-M20\api-asn1-api-1.0.0-M20.jar;C:\Users\halfOfGame\.m2\repository\org\apache\directory\api\api-util\1.0.0-M20\api-util-1.0.0-M20.jar;C:\Users\halfOfGame\.m2\repository\org\apache\curator\curator-framework\2.7.1\curator-framework-2.7.1.jar;C:\Users\halfOfGame\.m2\repository\com\jcraft\jsch\0.1.42\jsch-0.1.42.jar;C:\Users\halfOfGame\.m2\repository\org\apache\curator\curator-client\2.7.1\curator-client-2.7.1.jar;C:\Users\halfOfGame\.m2\repository\org\apache\curator\curator-recipes\2.7.1\curator-recipes-2.7.1.jar;C:\Users\halfOfGame\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar;C:\Users\halfOfGame\.m2\repository\org\apache\htrace\htrace-core\3.1.0-incubating\htrace-core-3.1.0-incubating.jar;C:\Users\halfOfGame\.m2\repository\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;C:\Users\halfOfGame\.m2\repository\org\apache\commons\commons-compress\1.4.1\commons-compress-1.4.1.jar;C:\Users\halfOfGame\.m2\repository\org\tukaani\xz\1.0\xz-1.0.jar;C:\Users\halfOfGame\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.7.2\hadoop-hdfs-2.7.2.jar;C:\Users\halfOfGame\.m2\repository\commons-daemon\commons-daemon\1.0.13\commons-daemon-1.0.13.jar;C:\Users\halfOfGame\.m2\repository\io\netty\netty\3.6.2.Final\netty-3.6.2.Final.jar;C:\Users\halfOfGame\.m2\repository\io\netty\netty-all\4.0.23.Final\netty-all-4.0.23.Final.jar;C:\Users\halfOfGame\.m2\repository\xerces\xercesImpl\2.9.1\xercesImpl-2.9.1.jar;C:\Users\halfOfGame\.m2\repository\xml-apis\xml-apis\1.3.04\xml-apis-1.3.04.jar;C:\Users\halfOfGame\.m2\repository\org\fusesource\leveldbjni\leveldbjni-all\1.8\leveldbjni-all-1.8.jar;C:\Users\halfOfGame\.m2\repository\org\apache\hadoop\hadoop-yarn-common\2.7.2\hadoop-yarn-common-2.7.2.jar;C:\Users\halfOfGame\.m2\repository\org\apache\hadoop\hadoop-yarn-api\2.7.2\hadoop-yarn-api-2.7.2.jar;C:\Users\halfOfGame\.m2\repository\javax\xml\bind\jaxb-api\2.2.2\jaxb-api-2.2.2.jar;C:\Users\halfOfGame\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\halfOfGame\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\halfOfGame\.m2\repository\com\sun\jersey\jersey-client\1.9\jersey-client-1.9.jar;C:\Users\halfOfGame\.m2\repository\org\codehaus\jackson\jackson-jaxrs\1.9.13\jackson-jaxrs-1.9.13.jar;C:\Users\halfOfGame\.m2\repository\org\codehaus\jackson\jackson-xc\1.9.13\jackson-xc-1.9.13.jar;C:\Users\halfOfGame\.m2\repository\com\google\inject\extensions\guice-servlet\3.0\guice-servlet-3.0.jar;C:\Users\halfOfGame\.m2\repository\com\google\inject\guice\3.0\guice-3.0.jar;C:\Users\halfOfGame\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\halfOfGame\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\halfOfGame\.m2\repository\com\sun\jersey\contribs\jersey-guice\1.9\jersey-guice-1.9.jar;C:\Users\halfOfGame\.m2\repository\org\apache\spark\spark-core_2.11\2.1.1\spark-core_2.11-2.1.1.jar;C:\Users\halfOfGame\.m2\repository\org\apache\avro\avro-mapred\1.7.7\avro-mapred-1.7.7-hadoop2.jar;C:\Users\halfOfGame\.m2\repository\org\apache\avro\avro-ipc\1.7.7\avro-ipc-1.7.7.jar;C:\Users\halfOfGame\.m2\repository\org\apache\avro\avro-ipc\1.7.7\avro-ipc-1.7.7-tests.jar;C:\Users\halfOfGame\.m2\repository\com\twitter\chill_2.11\0.8.0\chill_2.11-0.8.0.jar;C:\Users\halfOfGame\.m2\repository\com\esotericsoftware\kryo-shaded\3.0.3\kryo-shaded-3.0.3.jar;C:\Users\halfOfGame\.m2\repository\com\esotericsoftware\minlog\1.3.0\minlog-1.3.0.jar;C:\Users\halfOfGame\.m2\repository\org\objenesis\objenesis\2.1\objenesis-2.1.jar;C:\Users\halfOfGame\.m2\repository\com\twitter\chill-java\0.8.0\chill-java-0.8.0.jar;C:\Users\halfOfGame\.m2\repository\org\apache\xbean\xbean-asm5-shaded\4.4\xbean-asm5-shaded-4.4.jar;C:\Users\halfOfGame\.m2\repository\org\apache\hadoop\hadoop-client\2.2.0\hadoop-client-2.2.0.jar;C:\Users\halfOfGame\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-app\2.2.0\hadoop-mapreduce-client-app-2.2.0.jar;C:\Users\halfOfGame\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-common\2.2.0\hadoop-mapreduce-client-common-2.2.0.jar;C:\Users\halfOfGame\.m2\repository\org\apache\hadoop\hadoop-yarn-client\2.2.0\hadoop-yarn-client-2.2.0.jar;C:\Users\halfOfGame\.m2\repository\org\apache\hadoop\hadoop-yarn-server-common\2.2.0\hadoop-yarn-server-common-2.2.0.jar;C:\Users\halfOfGame\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-shuffle\2.2.0\hadoop-mapreduce-client-shuffle-2.2.0.jar;C:\Users\halfOfGame\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-jobclient\2.2.0\hadoop-mapreduce-client-jobclient-2.2.0.jar;C:\Users\halfOfGame\.m2\repository\org\apache\spark\spark-launcher_2.11\2.1.1\spark-launcher_2.11-2.1.1.jar;C:\Users\halfOfGame\.m2\repository\org\apache\spark\spark-network-common_2.11\2.1.1\spark-network-common_2.11-2.1.1.jar;C:\Users\halfOfGame\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.6.5\jackson-annotations-2.6.5.jar;C:\Users\halfOfGame\.m2\repository\org\apache\spark\spark-network-shuffle_2.11\2.1.1\spark-network-shuffle_2.11-2.1.1.jar;C:\Users\halfOfGame\.m2\repository\org\apache\spark\spark-unsafe_2.11\2.1.1\spark-unsafe_2.11-2.1.1.jar;C:\Users\halfOfGame\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\halfOfGame\.m2\repository\org\slf4j\jul-to-slf4j\1.7.16\jul-to-slf4j-1.7.16.jar;C:\Users\halfOfGame\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.16\jcl-over-slf4j-1.7.16.jar;C:\Users\halfOfGame\.m2\repository\com\ning\compress-lzf\1.0.3\compress-lzf-1.0.3.jar;C:\Users\halfOfGame\.m2\repository\org\xerial\snappy\snappy-java\1.1.2.6\snappy-java-1.1.2.6.jar;C:\Users\halfOfGame\.m2\repository\net\jpountz\lz4\lz4\1.3.0\lz4-1.3.0.jar;C:\Users\halfOfGame\.m2\repository\org\roaringbitmap\RoaringBitmap\0.5.11\RoaringBitmap-0.5.11.jar;C:\Users\halfOfGame\.m2\repository\org\json4s\json4s-jackson_2.11\3.2.11\json4s-jackson_2.11-3.2.11.jar;C:\Users\halfOfGame\.m2\repository\org\json4s\json4s-core_2.11\3.2.11\json4s-core_2.11-3.2.11.jar;C:\Users\halfOfGame\.m2\repository\org\json4s\json4s-ast_2.11\3.2.11\json4s-ast_2.11-3.2.11.jar;C:\Users\halfOfGame\.m2\repository\org\scala-lang\scalap\2.11.0\scalap-2.11.0.jar;C:\Users\halfOfGame\.m2\repository\org\scala-lang\scala-compiler\2.11.0\scala-compiler-2.11.0.jar;C:\Users\halfOfGame\.m2\repository\org\scala-lang\modules\scala-xml_2.11\1.0.1\scala-xml_2.11-1.0.1.jar;C:\Users\halfOfGame\.m2\repository\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\halfOfGame\.m2\repository\org\glassfish\jersey\core\jersey-client\2.22.2\jersey-client-2.22.2.jar;C:\Users\halfOfGame\.m2\repository\javax\ws\rs\javax.ws.rs-api\2.0.1\javax.ws.rs-api-2.0.1.jar;C:\Users\halfOfGame\.m2\repository\org\glassfish\hk2\hk2-api\2.4.0-b34\hk2-api-2.4.0-b34.jar;C:\Users\halfOfGame\.m2\repository\org\glassfish\hk2\hk2-utils\2.4.0-b34\hk2-utils-2.4.0-b34.jar;C:\Users\halfOfGame\.m2\repository\org\glassfish\hk2\external\aopalliance-repackaged\2.4.0-b34\aopalliance-repackaged-2.4.0-b34.jar;C:\Users\halfOfGame\.m2\repository\org\glassfish\hk2\external\javax.inject\2.4.0-b34\javax.inject-2.4.0-b34.jar;C:\Users\halfOfGame\.m2\repository\org\glassfish\hk2\hk2-locator\2.4.0-b34\hk2-locator-2.4.0-b34.jar;C:\Users\halfOfGame\.m2\repository\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar;C:\Users\halfOfGame\.m2\repository\org\glassfish\jersey\core\jersey-common\2.22.2\jersey-common-2.22.2.jar;C:\Users\halfOfGame\.m2\repository\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar;C:\Users\halfOfGame\.m2\repository\org\glassfish\jersey\bundles\repackaged\jersey-guava\2.22.2\jersey-guava-2.22.2.jar;C:\Users\halfOfGame\.m2\repository\org\glassfish\hk2\osgi-resource-locator\1.0.1\osgi-resource-locator-1.0.1.jar;C:\Users\halfOfGame\.m2\repository\org\glassfish\jersey\core\jersey-server\2.22.2\jersey-server-2.22.2.jar;C:\Users\halfOfGame\.m2\repository\org\glassfish\jersey\media\jersey-media-jaxb\2.22.2\jersey-media-jaxb-2.22.2.jar;C:\Users\halfOfGame\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\halfOfGame\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet\2.22.2\jersey-container-servlet-2.22.2.jar;C:\Users\halfOfGame\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet-core\2.22.2\jersey-container-servlet-core-2.22.2.jar;C:\Users\halfOfGame\.m2\repository\com\clearspring\analytics\stream\2.7.0\stream-2.7.0.jar;C:\Users\halfOfGame\.m2\repository\io\dropwizard\metrics\metrics-core\3.1.2\metrics-core-3.1.2.jar;C:\Users\halfOfGame\.m2\repository\io\dropwizard\metrics\metrics-jvm\3.1.2\metrics-jvm-3.1.2.jar;C:\Users\halfOfGame\.m2\repository\io\dropwizard\metrics\metrics-json\3.1.2\metrics-json-3.1.2.jar;C:\Users\halfOfGame\.m2\repository\io\dropwizard\metrics\metrics-graphite\3.1.2\metrics-graphite-3.1.2.jar;C:\Users\halfOfGame\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.6.5\jackson-databind-2.6.5.jar;C:\Users\halfOfGame\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.6.5\jackson-core-2.6.5.jar;C:\Users\halfOfGame\.m2\repository\com\fasterxml\jackson\module\jackson-module-scala_2.11\2.6.5\jackson-module-scala_2.11-2.6.5.jar;C:\Users\halfOfGame\.m2\repository\org\scala-lang\scala-reflect\2.11.7\scala-reflect-2.11.7.jar;C:\Users\halfOfGame\.m2\repository\com\fasterxml\jackson\module\jackson-module-paranamer\2.6.5\jackson-module-paranamer-2.6.5.jar;C:\Users\halfOfGame\.m2\repository\org\apache\ivy\ivy\2.4.0\ivy-2.4.0.jar;C:\Users\halfOfGame\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\halfOfGame\.m2\repository\net\razorvine\pyrolite\4.13\pyrolite-4.13.jar;C:\Users\halfOfGame\.m2\repository\net\sf\py4j\py4j\0.10.4\py4j-0.10.4.jar;C:\Users\halfOfGame\.m2\repository\org\apache\spark\spark-tags_2.11\2.1.1\spark-tags_2.11-2.1.1.jar;C:\Users\halfOfGame\.m2\repository\org\apache\commons\commons-crypto\1.0.0\commons-crypto-1.0.0.jar;C:\Users\halfOfGame\.m2\repository\org\spark-project\spark\unused\1.0.0\unused-1.0.0.jar;C:\Users\halfOfGame\.m2\repository\org\apache\spark\spark-sql_2.11\2.1.1\spark-sql_2.11-2.1.1.jar;C:\Users\halfOfGame\.m2\repository\com\univocity\univocity-parsers\2.2.1\univocity-parsers-2.2.1.jar;C:\Users\halfOfGame\.m2\repository\org\apache\spark\spark-sketch_2.11\2.1.1\spark-sketch_2.11-2.1.1.jar;C:\Users\halfOfGame\.m2\repository\org\apache\spark\spark-catalyst_2.11\2.1.1\spark-catalyst_2.11-2.1.1.jar;C:\Users\halfOfGame\.m2\repository\org\codehaus\janino\janino\3.0.0\janino-3.0.0.jar;C:\Users\halfOfGame\.m2\repository\org\codehaus\janino\commons-compiler\3.0.0\commons-compiler-3.0.0.jar;C:\Users\halfOfGame\.m2\repository\org\antlr\antlr4-runtime\4.5.3\antlr4-runtime-4.5.3.jar;C:\Users\halfOfGame\.m2\repository\org\apache\parquet\parquet-column\1.8.1\parquet-column-1.8.1.jar;C:\Users\halfOfGame\.m2\repository\org\apache\parquet\parquet-common\1.8.1\parquet-common-1.8.1.jar;C:\Users\halfOfGame\.m2\repository\org\apache\parquet\parquet-encoding\1.8.1\parquet-encoding-1.8.1.jar;C:\Users\halfOfGame\.m2\repository\org\apache\parquet\parquet-hadoop\1.8.1\parquet-hadoop-1.8.1.jar;C:\Users\halfOfGame\.m2\repository\org\apache\parquet\parquet-format\2.3.0-incubating\parquet-format-2.3.0-incubating.jar;C:\Users\halfOfGame\.m2\repository\org\apache\parquet\parquet-jackson\1.8.1\parquet-jackson-1.8.1.jar;C:\Users\halfOfGame\.m2\repository\org\apache\spark\spark-mllib_2.11\2.1.1\spark-mllib_2.11-2.1.1.jar;C:\Users\halfOfGame\.m2\repository\org\apache\spark\spark-streaming_2.11\2.1.1\spark-streaming_2.11-2.1.1.jar;C:\Users\halfOfGame\.m2\repository\org\apache\spark\spark-graphx_2.11\2.1.1\spark-graphx_2.11-2.1.1.jar;C:\Users\halfOfGame\.m2\repository\com\github\fommil\netlib\core\1.1.2\core-1.1.2.jar;C:\Users\halfOfGame\.m2\repository\net\sourceforge\f2j\arpack_combined_all\0.1\arpack_combined_all-0.1.jar;C:\Users\halfOfGame\.m2\repository\org\apache\spark\spark-mllib-local_2.11\2.1.1\spark-mllib-local_2.11-2.1.1.jar;C:\Users\halfOfGame\.m2\repository\org\scalanlp\breeze_2.11\0.12\breeze_2.11-0.12.jar;C:\Users\halfOfGame\.m2\repository\org\scalanlp\breeze-macros_2.11\0.12\breeze-macros_2.11-0.12.jar;C:\Users\halfOfGame\.m2\repository\net\sf\opencsv\opencsv\2.3\opencsv-2.3.jar;C:\Users\halfOfGame\.m2\repository\com\github\rwl\jtransforms\2.4.0\jtransforms-2.4.0.jar;C:\Users\halfOfGame\.m2\repository\org\spire-math\spire_2.11\0.7.4\spire_2.11-0.7.4.jar;C:\Users\halfOfGame\.m2\repository\org\spire-math\spire-macros_2.11\0.7.4\spire-macros_2.11-0.7.4.jar;C:\Users\halfOfGame\.m2\repository\com\chuusai\shapeless_2.11\2.0.0\shapeless_2.11-2.0.0.jar;C:\Users\halfOfGame\.m2\repository\org\jpmml\pmml-model\1.2.15\pmml-model-1.2.15.jar;C:\Users\halfOfGame\.m2\repository\org\jpmml\pmml-schema\1.2.15\pmml-schema-1.2.15.jar;C:\Users\halfOfGame\.m2\repository\org\apache\spark\spark-hive_2.11\2.1.1\spark-hive_2.11-2.1.1.jar;C:\Users\halfOfGame\.m2\repository\com\twitter\parquet-hadoop-bundle\1.6.0\parquet-hadoop-bundle-1.6.0.jar;C:\Users\halfOfGame\.m2\repository\org\spark-project\hive\hive-exec\1.2.1.spark2\hive-exec-1.2.1.spark2.jar;C:\Users\halfOfGame\.m2\repository\javolution\javolution\5.5.1\javolution-5.5.1.jar;C:\Users\halfOfGame\.m2\repository\log4j\apache-log4j-extras\1.2.17\apache-log4j-extras-1.2.17.jar;C:\Users\halfOfGame\.m2\repository\org\antlr\antlr-runtime\3.4\antlr-runtime-3.4.jar;C:\Users\halfOfGame\.m2\repository\org\antlr\stringtemplate\3.2.1\stringtemplate-3.2.1.jar;C:\Users\halfOfGame\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\halfOfGame\.m2\repository\org\antlr\ST4\4.0.4\ST4-4.0.4.jar;C:\Users\halfOfGame\.m2\repository\com\googlecode\javaewah\JavaEWAH\0.3.2\JavaEWAH-0.3.2.jar;C:\Users\halfOfGame\.m2\repository\org\iq80\snappy\snappy\0.2\snappy-0.2.jar;C:\Users\halfOfGame\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\halfOfGame\.m2\repository\org\spark-project\hive\hive-metastore\1.2.1.spark2\hive-metastore-1.2.1.spark2.jar;C:\Users\halfOfGame\.m2\repository\com\jolbox\bonecp\0.8.0.RELEASE\bonecp-0.8.0.RELEASE.jar;C:\Users\halfOfGame\.m2\repository\org\apache\derby\derby\10.10.2.0\derby-10.10.2.0.jar;C:\Users\halfOfGame\.m2\repository\org\datanucleus\datanucleus-api-jdo\3.2.6\datanucleus-api-jdo-3.2.6.jar;C:\Users\halfOfGame\.m2\repository\org\datanucleus\datanucleus-rdbms\3.2.9\datanucleus-rdbms-3.2.9.jar;C:\Users\halfOfGame\.m2\repository\commons-pool\commons-pool\1.5.4\commons-pool-1.5.4.jar;C:\Users\halfOfGame\.m2\repository\commons-dbcp\commons-dbcp\1.4\commons-dbcp-1.4.jar;C:\Users\halfOfGame\.m2\repository\javax\jdo\jdo-api\3.0.1\jdo-api-3.0.1.jar;C:\Users\halfOfGame\.m2\repository\javax\transaction\jta\1.1\jta-1.1.jar;C:\Users\halfOfGame\.m2\repository\org\apache\calcite\calcite-avatica\1.2.0-incubating\calcite-avatica-1.2.0-incubating.jar;C:\Users\halfOfGame\.m2\repository\org\apache\calcite\calcite-core\1.2.0-incubating\calcite-core-1.2.0-incubating.jar;C:\Users\halfOfGame\.m2\repository\org\apache\calcite\calcite-linq4j\1.2.0-incubating\calcite-linq4j-1.2.0-incubating.jar;C:\Users\halfOfGame\.m2\repository\net\hydromatic\eigenbase-properties\1.1.5\eigenbase-properties-1.1.5.jar;C:\Users\halfOfGame\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\halfOfGame\.m2\repository\joda-time\joda-time\2.9.3\joda-time-2.9.3.jar;C:\Users\halfOfGame\.m2\repository\org\jodd\jodd-core\3.5.2\jodd-core-3.5.2.jar;C:\Users\halfOfGame\.m2\repository\org\datanucleus\datanucleus-core\3.2.10\datanucleus-core-3.2.10.jar;C:\Users\halfOfGame\.m2\repository\org\apache\thrift\libthrift\0.9.3\libthrift-0.9.3.jar;C:\Users\halfOfGame\.m2\repository\org\apache\thrift\libfb303\0.9.3\libfb303-0.9.3.jar;C:\Users\halfOfGame\.m2\repository\org\apache\hbase\hbase-client\1.3.1\hbase-client-1.3.1.jar;C:\Users\halfOfGame\.m2\repository\org\apache\hbase\hbase-annotations\1.3.1\hbase-annotations-1.3.1.jar;C:\Users\halfOfGame\.m2\repository\org\apache\hbase\hbase-protocol\1.3.1\hbase-protocol-1.3.1.jar;C:\Users\halfOfGame\.m2\repository\org\jruby\jcodings\jcodings\1.0.8\jcodings-1.0.8.jar;C:\Users\halfOfGame\.m2\repository\org\jruby\joni\joni\2.1.2\joni-2.1.2.jar;C:\Users\halfOfGame\.m2\repository\com\yammer\metrics\metrics-core\2.2.0\metrics-core-2.2.0.jar;C:\Users\halfOfGame\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-core\2.5.1\hadoop-mapreduce-client-core-2.5.1.jar;C:\Users\halfOfGame\.m2\repository\org\apache\hbase\hbase-common\1.3.1\hbase-common-1.3.1.jar;C:\Users\halfOfGame\.m2\repository\com\github\stephenc\findbugs\findbugs-annotations\1.3.9-1\findbugs-annotations-1.3.9-1.jar;C:\Users\halfOfGame\.m2\repository\org\apache\hbase\hbase-server\1.3.1\hbase-server-1.3.1.jar;C:\Users\halfOfGame\.m2\repository\org\apache\hbase\hbase-procedure\1.3.1\hbase-procedure-1.3.1.jar;C:\Users\halfOfGame\.m2\repository\org\apache\hbase\hbase-common\1.3.1\hbase-common-1.3.1-tests.jar;C:\Users\halfOfGame\.m2\repository\org\apache\hbase\hbase-prefix-tree\1.3.1\hbase-prefix-tree-1.3.1.jar;C:\Users\halfOfGame\.m2\repository\org\apache\hbase\hbase-hadoop-compat\1.3.1\hbase-hadoop-compat-1.3.1.jar;C:\Users\halfOfGame\.m2\repository\org\apache\hbase\hbase-hadoop2-compat\1.3.1\hbase-hadoop2-compat-1.3.1.jar;C:\Users\halfOfGame\.m2\repository\org\apache\commons\commons-math\2.2\commons-math-2.2.jar;C:\Users\halfOfGame\.m2\repository\org\mortbay\jetty\jetty-sslengine\6.1.26\jetty-sslengine-6.1.26.jar;C:\Users\halfOfGame\.m2\repository\org\mortbay\jetty\jsp-2.1\6.1.14\jsp-2.1-6.1.14.jar;C:\Users\halfOfGame\.m2\repository\org\mortbay\jetty\jsp-api-2.1\6.1.14\jsp-api-2.1-6.1.14.jar;C:\Users\halfOfGame\.m2\repository\org\mortbay\jetty\servlet-api-2.5\6.1.14\servlet-api-2.5-6.1.14.jar;C:\Users\halfOfGame\.m2\repository\tomcat\jasper-compiler\5.5.23\jasper-compiler-5.5.23.jar;C:\Users\halfOfGame\.m2\repository\tomcat\jasper-runtime\5.5.23\jasper-runtime-5.5.23.jar;C:\Users\halfOfGame\.m2\repository\commons-el\commons-el\1.0\commons-el-1.0.jar;C:\Users\halfOfGame\.m2\repository\org\jamon\jamon-runtime\2.4.1\jamon-runtime-2.4.1.jar;C:\Users\halfOfGame\.m2\repository\com\lmax\disruptor\3.3.0\disruptor-3.3.0.jar;C:\Users\halfOfGame\.m2\repository\org\apache\hbase\hbase-mapreduce\2.0.1\hbase-mapreduce-2.0.1.jar;C:\Users\halfOfGame\.m2\repository\org\apache\hbase\thirdparty\hbase-shaded-miscellaneous\2.1.0\hbase-shaded-miscellaneous-2.1.0.jar;C:\Users\halfOfGame\.m2\repository\org\apache\hbase\thirdparty\hbase-shaded-netty\2.1.0\hbase-shaded-netty-2.1.0.jar;C:\Users\halfOfGame\.m2\repository\org\apache\hbase\thirdparty\hbase-shaded-protobuf\2.1.0\hbase-shaded-protobuf-2.1.0.jar;C:\Users\halfOfGame\.m2\repository\org\apache\hbase\hbase-zookeeper\2.0.1\hbase-zookeeper-2.0.1.jar;C:\Users\halfOfGame\.m2\repository\org\apache\hbase\hbase-protocol-shaded\2.0.1\hbase-protocol-shaded-2.0.1.jar;C:\Users\halfOfGame\.m2\repository\org\apache\hbase\hbase-metrics\2.0.1\hbase-metrics-2.0.1.jar;C:\Users\halfOfGame\.m2\repository\org\apache\hbase\hbase-metrics-api\2.0.1\hbase-metrics-api-2.0.1.jar;C:\Users\halfOfGame\.m2\repository\org\apache\htrace\htrace-core4\4.2.0-incubating\htrace-core4-4.2.0-incubating.jar;C:\Users\halfOfGame\.m2\repository\org\apache\hbase\hbase-replication\2.0.1\hbase-replication-2.0.1.jar;C:\Users\halfOfGame\.m2\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;C:\Users\halfOfGame\.m2\repository\mysql\mysql-connector-java\8.0.17\mysql-connector-java-8.0.17.jar;C:\Users\halfOfGame\.m2\repository\com\typesafe\config\1.4.0\config-1.4.0.jar;C:\Users\halfOfGame\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\halfOfGame\.m2\repository\org\slf4j\slf4j-simple\1.7.25\slf4j-simple-1.7.25.jar;D:\Program Files\JetBrains\IntelliJ IDEA 2020.2.1\lib\idea_rt.jar
+21/06/14 08:05:31 INFO ZooKeeper: Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;;E:\BigDataSoftwares\hadoop-2.7.2\bin;E:\BigDataSoftwares\hadoop-2.7.2\sbin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\scala\bin;D:\HashiCorp\Vagrant\bin;D:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;;D:\Program Files\Microsoft VS Code\bin;C:\Program Files\dotnet\;D:\Program Files\Redis\;D:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;D:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin;D:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64;D:\Ruby27-x64\bin;D:\Users\halfOfGame\anaconda3;D:\Users\halfOfGame\anaconda3\Library\mingw-w64\bin;D:\Users\halfOfGame\anaconda3\Library\usr\bin;D:\Users\halfOfGame\anaconda3\Library\bin;D:\Users\halfOfGame\anaconda3\Scripts;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\halfOfGame\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;E:\shortcut;E:\shortcut\Navicat Premium 12;E:\shortcut\jdk-8u202-docs-all\docs\api;E:\shortcut\HBuilderX;E:\shortcut\Fishword;E:\shortcut\PanDownload;E:\shortcut\man;C:\Program Files (x86)\Google\Chrome\Application;d:\Users\halfOfGame\AppData\Local\Programs\Fiddler;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\Program Files\JetBrains\IntelliJ IDEA 2020.2.1\bin;;C:\Users\halfOfGame\AppData\Local\Microsoft\WindowsApps;C:\Users\halfOfGame\AppData\Roaming\npm;D:\Program Files\nodejs;;D:\Program Files\JetBrains\PyCharm 2021.1.1\bin;;.
+21/06/14 08:05:31 INFO ZooKeeper: Client environment:java.io.tmpdir=C:\Users\HALFOF~1\AppData\Local\Temp\
+21/06/14 08:05:31 INFO ZooKeeper: Client environment:java.compiler=<NA>
+21/06/14 08:05:31 INFO ZooKeeper: Client environment:os.name=Windows 10
+21/06/14 08:05:31 INFO ZooKeeper: Client environment:os.arch=amd64
+21/06/14 08:05:31 INFO ZooKeeper: Client environment:os.version=10.0
+21/06/14 08:05:31 INFO ZooKeeper: Client environment:user.name=halfOfGame
+21/06/14 08:05:31 INFO ZooKeeper: Client environment:user.home=C:\Users\halfOfGame
+21/06/14 08:05:31 INFO ZooKeeper: Client environment:user.dir=D:\ShopProject\UserTags
+21/06/14 08:05:31 INFO ZooKeeper: Initiating client connection, connectString=hadoop101:2181 sessionTimeout=90000 watcher=org.apache.hadoop.hbase.zookeeper.PendingWatcher@14cfd2d5
+21/06/14 08:05:31 INFO ZooKeeper: Initiating client connection, connectString=hadoop101:2181 sessionTimeout=90000 watcher=org.apache.hadoop.hbase.zookeeper.PendingWatcher@57feba60
+21/06/14 08:05:31 INFO ClientCnxn: Opening socket connection to server hadoop101/192.168.1.128:2181. Will not attempt to authenticate using SASL (unknown error)
+21/06/14 08:05:31 INFO ClientCnxn: Opening socket connection to server hadoop101/192.168.1.128:2181. Will not attempt to authenticate using SASL (unknown error)
+21/06/14 08:05:31 INFO ClientCnxn: Socket connection established to hadoop101/192.168.1.128:2181, initiating session
+21/06/14 08:05:31 INFO ClientCnxn: Socket connection established to hadoop101/192.168.1.128:2181, initiating session
+21/06/14 08:05:31 INFO ClientCnxn: Session establishment complete on server hadoop101/192.168.1.128:2181, sessionid = 0x17a07cf2d4f000b, negotiated timeout = 40000
+21/06/14 08:05:31 INFO ClientCnxn: Session establishment complete on server hadoop101/192.168.1.128:2181, sessionid = 0x17a07cf2d4f000c, negotiated timeout = 40000
+21/06/14 08:05:31 INFO ConnectionManager$HConnectionImplementation: Closing zookeeper sessionid=0x17a07cf2d4f000c
+21/06/14 08:05:31 INFO ConnectionManager$HConnectionImplementation: Closing zookeeper sessionid=0x17a07cf2d4f000b
+21/06/14 08:05:31 INFO ZooKeeper: Session: 0x17a07cf2d4f000b closed
+21/06/14 08:05:31 INFO ClientCnxn: EventThread shut down
+21/06/14 08:05:31 INFO ZooKeeper: Session: 0x17a07cf2d4f000c closed
+21/06/14 08:05:31 INFO ClientCnxn: EventThread shut down
+21/06/14 08:05:31 WARN HFileOutputFormat2: there's something wrong when locating rowkey: 3597241
+org.apache.hadoop.hbase.TableNotFoundException: Table 'tbl_goods' was not found, got: student.
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.locateRegionInMeta(ConnectionManager.java:1302)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.locateRegion(ConnectionManager.java:1183)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.locateRegion(ConnectionManager.java:1167)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.locateRegion(ConnectionManager.java:1124)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.getRegionLocation(ConnectionManager.java:959)
+	at org.apache.hadoop.hbase.client.HRegionLocator.getRegionLocation(HRegionLocator.java:74)
+	at org.apache.hadoop.hbase.mapreduce.HFileOutputFormat2$1.write(HFileOutputFormat2.java:216)
+	at org.apache.hadoop.hbase.mapreduce.HFileOutputFormat2$1.write(HFileOutputFormat2.java:167)
+	at org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsNewAPIHadoopDataset$1$$anonfun$12$$anonfun$apply$4.apply$mcV$sp(PairRDDFunctions.scala:1125)
+	at org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsNewAPIHadoopDataset$1$$anonfun$12$$anonfun$apply$4.apply(PairRDDFunctions.scala:1123)
+	at org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsNewAPIHadoopDataset$1$$anonfun$12$$anonfun$apply$4.apply(PairRDDFunctions.scala:1123)
+	at org.apache.spark.util.Utils$.tryWithSafeFinallyAndFailureCallbacks(Utils.scala:1341)
+	at org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsNewAPIHadoopDataset$1$$anonfun$12.apply(PairRDDFunctions.scala:1131)
+	at org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsNewAPIHadoopDataset$1$$anonfun$12.apply(PairRDDFunctions.scala:1102)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87)
+	at org.apache.spark.scheduler.Task.run(Task.scala:99)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:322)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+21/06/14 08:05:31 WARN HFileOutputFormat2: there's something wrong when locating rowkey: 3696263
+org.apache.hadoop.hbase.TableNotFoundException: Table 'tbl_goods' was not found, got: student.
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.locateRegionInMeta(ConnectionManager.java:1302)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.locateRegion(ConnectionManager.java:1183)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.locateRegion(ConnectionManager.java:1167)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.locateRegion(ConnectionManager.java:1124)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.getRegionLocation(ConnectionManager.java:959)
+	at org.apache.hadoop.hbase.client.HRegionLocator.getRegionLocation(HRegionLocator.java:74)
+	at org.apache.hadoop.hbase.mapreduce.HFileOutputFormat2$1.write(HFileOutputFormat2.java:216)
+	at org.apache.hadoop.hbase.mapreduce.HFileOutputFormat2$1.write(HFileOutputFormat2.java:167)
+	at org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsNewAPIHadoopDataset$1$$anonfun$12$$anonfun$apply$4.apply$mcV$sp(PairRDDFunctions.scala:1125)
+	at org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsNewAPIHadoopDataset$1$$anonfun$12$$anonfun$apply$4.apply(PairRDDFunctions.scala:1123)
+	at org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsNewAPIHadoopDataset$1$$anonfun$12$$anonfun$apply$4.apply(PairRDDFunctions.scala:1123)
+	at org.apache.spark.util.Utils$.tryWithSafeFinallyAndFailureCallbacks(Utils.scala:1341)
+	at org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsNewAPIHadoopDataset$1$$anonfun$12.apply(PairRDDFunctions.scala:1131)
+	at org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsNewAPIHadoopDataset$1$$anonfun$12.apply(PairRDDFunctions.scala:1102)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87)
+	at org.apache.spark.scheduler.Task.run(Task.scala:99)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:322)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+21/06/14 08:05:31 INFO CacheConfig: Created cacheConfig: CacheConfig:disabled
+21/06/14 08:05:31 INFO CacheConfig: Created cacheConfig: CacheConfig:disabled
+21/06/14 08:05:31 WARN HFileWriterV2: A minimum HFile version of 3 is required to support cell attributes/tags. Consider setting hfile.format.version accordingly.
+21/06/14 08:05:31 WARN HFileWriterV2: A minimum HFile version of 3 is required to support cell attributes/tags. Consider setting hfile.format.version accordingly.
+21/06/14 08:05:37 INFO FileOutputCommitter: Saved output of task 'attempt_20210614080518_0012_r_000000_0' to hdfs://hadoop101:9000/user/admin/data_extra/hfile_cache/tbl_goods/_temporary/0/task_20210614080518_0012_r_000000
+21/06/14 08:05:37 INFO Executor: Finished task 0.0 in stage 2.0 (TID 4). 2000 bytes result sent to driver
+21/06/14 08:05:37 INFO TaskSetManager: Finished task 0.0 in stage 2.0 (TID 4) in 13255 ms on localhost (executor driver) (1/2)
+21/06/14 08:05:39 INFO FileOutputCommitter: Saved output of task 'attempt_20210614080518_0012_r_000001_0' to hdfs://hadoop101:9000/user/admin/data_extra/hfile_cache/tbl_goods/_temporary/0/task_20210614080518_0012_r_000001
+21/06/14 08:05:39 INFO Executor: Finished task 1.0 in stage 2.0 (TID 5). 2000 bytes result sent to driver
+21/06/14 08:05:39 INFO TaskSetManager: Finished task 1.0 in stage 2.0 (TID 5) in 15421 ms on localhost (executor driver) (2/2)
+21/06/14 08:05:39 INFO TaskSchedulerImpl: Removed TaskSet 2.0, whose tasks have all completed, from pool
+21/06/14 08:05:39 INFO DAGScheduler: ResultStage 2 (saveAsNewAPIHadoopFile at Hive2HBase.scala:104) finished in 15.422 s
+21/06/14 08:05:39 INFO DAGScheduler: Job 1 finished: saveAsNewAPIHadoopFile at Hive2HBase.scala:104, took 20.929426 s
+21/06/14 08:05:39 INFO RecoverableZooKeeper: Process identifier=hconnection-0x6a887649 connecting to ZooKeeper ensemble=hadoop101:2181
+21/06/14 08:05:39 INFO ZooKeeper: Initiating client connection, connectString=hadoop101:2181 sessionTimeout=90000 watcher=org.apache.hadoop.hbase.zookeeper.PendingWatcher@15e748b5
+21/06/14 08:05:39 INFO ClientCnxn: Opening socket connection to server hadoop101/192.168.1.128:2181. Will not attempt to authenticate using SASL (unknown error)
+21/06/14 08:05:39 INFO ClientCnxn: Socket connection established to hadoop101/192.168.1.128:2181, initiating session
+21/06/14 08:05:39 INFO ClientCnxn: Session establishment complete on server hadoop101/192.168.1.128:2181, sessionid = 0x17a07cf2d4f000d, negotiated timeout = 40000
+21/06/14 08:05:40 INFO HBaseAdmin: Created tbl_goods
+21/06/14 08:05:40 INFO RecoverableZooKeeper: Process identifier=hconnection-0x3763aafd connecting to ZooKeeper ensemble=hadoop101:2181
+21/06/14 08:05:40 INFO ZooKeeper: Initiating client connection, connectString=hadoop101:2181 sessionTimeout=90000 watcher=org.apache.hadoop.hbase.zookeeper.PendingWatcher@16ca4532
+21/06/14 08:05:40 INFO ClientCnxn: Opening socket connection to server hadoop101/192.168.1.128:2181. Will not attempt to authenticate using SASL (unknown error)
+21/06/14 08:05:40 INFO ClientCnxn: Socket connection established to hadoop101/192.168.1.128:2181, initiating session
+21/06/14 08:05:40 INFO ClientCnxn: Session establishment complete on server hadoop101/192.168.1.128:2181, sessionid = 0x17a07cf2d4f000e, negotiated timeout = 40000
+21/06/14 08:05:40 WARN LoadIncrementalHFiles: Skipping non-directory hdfs://hadoop101:9000/user/admin/data_extra/hfile_cache/tbl_goods/_SUCCESS
+21/06/14 08:05:41 INFO CacheConfig: Created cacheConfig: CacheConfig:disabled
+21/06/14 08:05:41 INFO CacheConfig: Created cacheConfig: CacheConfig:disabled
+21/06/14 08:05:41 INFO LoadIncrementalHFiles: Trying to load hfile=hdfs://hadoop101:9000/user/admin/data_extra/hfile_cache/tbl_goods/default/458cf4bfbcd34481bce7f09bb57ea7d4 first=3696263 last=82100
+21/06/14 08:05:41 INFO LoadIncrementalHFiles: Trying to load hfile=hdfs://hadoop101:9000/user/admin/data_extra/hfile_cache/tbl_goods/default/b3fa37c8221c44b48f3c1c6874933ee8 first=3597241 last=3696261
+21/06/14 08:05:41 INFO SparkContext: Invoking stop() from shutdown hook
+21/06/14 08:05:41 INFO SparkUI: Stopped Spark web UI at http://192.168.1.1:4040
+21/06/14 08:05:41 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+21/06/14 08:05:41 INFO MemoryStore: MemoryStore cleared
+21/06/14 08:05:41 INFO BlockManager: BlockManager stopped
+21/06/14 08:05:41 INFO BlockManagerMaster: BlockManagerMaster stopped
+21/06/14 08:05:41 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+21/06/14 08:05:41 INFO SparkContext: Successfully stopped SparkContext
+21/06/14 08:05:41 INFO ShutdownHookManager: Shutdown hook called
+21/06/14 08:05:41 INFO ShutdownHookManager: Deleting directory C:\Users\halfOfGame\AppData\Local\Temp\spark-cc96f11d-647b-4fa8-9d5d-4baa44ae9011
+
+Process finished with exit code 0
